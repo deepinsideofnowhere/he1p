@@ -641,18 +641,18 @@ h2 {
     font-size: 16px;
   }
 }
-/* line 733, ../sass/custom.scss */
+/* line 732, ../sass/custom.scss */
 .index #main #content #howitworks {
   background: #f6f6f6;
   padding: 18px 0px;
 }
-/* line 737, ../sass/custom.scss */
+/* line 736, ../sass/custom.scss */
 .index #main #content #howitworks ul {
   list-style: none;
   text-align: center;
   margin-bottom: 25px;
 }
-/* line 742, ../sass/custom.scss */
+/* line 741, ../sass/custom.scss */
 .index #main #content #howitworks ul li {
   display: inline-block;
   text-align: center;
@@ -661,46 +661,46 @@ h2 {
   vertical-align: top;
 }
 @media only screen and (max-width: 870px) {
-  /* line 742, ../sass/custom.scss */
+  /* line 741, ../sass/custom.scss */
   .index #main #content #howitworks ul li {
     margin: 0 0 25px;
     width: 100%;
     display: block;
   }
 }
-/* line 755, ../sass/custom.scss */
+/* line 754, ../sass/custom.scss */
 .index #main #content #howitworks ul li:first-of-type {
   margin-left: 0;
 }
-/* line 759, ../sass/custom.scss */
+/* line 758, ../sass/custom.scss */
 .index #main #content #howitworks ul li:last-of-type {
   margin-right: 0;
 }
-/* line 763, ../sass/custom.scss */
+/* line 762, ../sass/custom.scss */
 .index #main #content #howitworks ul li label {
   width: 160px;
   height: 160px;
   display: inline-block;
 }
 @media only screen and (max-width: 870px) {
-  /* line 763, ../sass/custom.scss */
+  /* line 762, ../sass/custom.scss */
   .index #main #content #howitworks ul li label {
     width: 120px;
     height: 120px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 763, ../sass/custom.scss */
+  /* line 762, ../sass/custom.scss */
   .index #main #content #howitworks ul li label {
     width: 80px;
     height: 80px;
   }
 }
-/* line 778, ../sass/custom.scss */
+/* line 777, ../sass/custom.scss */
 .index #main #content #howitworks ul li label img {
   width: 100%;
 }
-/* line 783, ../sass/custom.scss */
+/* line 782, ../sass/custom.scss */
 .index #main #content #howitworks ul li h4 {
   font-size: 30px;
   font-family: 'Dosis-Regular';
@@ -708,55 +708,55 @@ h2 {
   margin-top: 10px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 783, ../sass/custom.scss */
+  /* line 782, ../sass/custom.scss */
   .index #main #content #howitworks ul li h4 {
     font-size: 24px;
   }
 }
-/* line 793, ../sass/custom.scss */
+/* line 792, ../sass/custom.scss */
 .index #main #content #howitworks ul li h4 strong {
   font-size: 50px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 793, ../sass/custom.scss */
+  /* line 792, ../sass/custom.scss */
   .index #main #content #howitworks ul li h4 strong {
     font-size: 40px;
   }
 }
-/* line 802, ../sass/custom.scss */
+/* line 801, ../sass/custom.scss */
 .index #main #content #howitworks ul li p {
   font-size: 20px;
   font-family: 'Dosis-Regular';
   text-align: center;
 }
-/* line 811, ../sass/custom.scss */
+/* line 810, ../sass/custom.scss */
 .index #main #content #faq {
   background: white;
   padding: 35px 0;
 }
-/* line 817, ../sass/custom.scss */
+/* line 816, ../sass/custom.scss */
 .index #main #content #faq .container ul li {
   border-bottom: 1px solid #e2e2e2;
   margin: 10px 0;
 }
-/* line 821, ../sass/custom.scss */
+/* line 820, ../sass/custom.scss */
 .index #main #content #faq .container ul li:last-of-type {
   border-bottom: none;
   margin-bottom: 0;
 }
-/* line 826, ../sass/custom.scss */
+/* line 825, ../sass/custom.scss */
 .index #main #content #faq .container ul li a, .index #main #content #faq .container ul li p {
   font-family: 'Dosis-Regular';
   line-height: 36px;
   font-size: 20px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 826, ../sass/custom.scss */
+  /* line 825, ../sass/custom.scss */
   .index #main #content #faq .container ul li a, .index #main #content #faq .container ul li p {
     line-height: 24px;
   }
 }
-/* line 836, ../sass/custom.scss */
+/* line 835, ../sass/custom.scss */
 .index #main #content #faq .container ul li a {
   text-decoration: underline;
   padding-bottom: 10px;
@@ -766,7 +766,7 @@ h2 {
   padding-left: 50px;
   white-space: normal;
 }
-/* line 845, ../sass/custom.scss */
+/* line 844, ../sass/custom.scss */
 .index #main #content #faq .container ul li a:before {
   margin-right: 14px;
   display: inline-block;
@@ -779,91 +779,91 @@ h2 {
   vertical-align: middle;
   margin-left: -50px;
 }
-/* line 858, ../sass/custom.scss */
+/* line 857, ../sass/custom.scss */
 .index #main #content #faq .container ul li a:hover {
   text-decoration: none;
 }
-/* line 862, ../sass/custom.scss */
+/* line 861, ../sass/custom.scss */
 .index #main #content #faq .container ul li a.opened {
   color: #c4334b;
 }
-/* line 865, ../sass/custom.scss */
+/* line 864, ../sass/custom.scss */
 .index #main #content #faq .container ul li a.opened:before {
   background: url(../img/down.png) no-repeat;
   background-size: 36px;
   transform: rotate(90deg);
 }
-/* line 873, ../sass/custom.scss */
+/* line 872, ../sass/custom.scss */
 .index #main #content #faq .container ul li p {
   display: none;
   padding-left: 50px;
   top: -10px;
 }
-/* line 883, ../sass/custom.scss */
+/* line 882, ../sass/custom.scss */
 .index #main #content #order {
   background: #61b573;
   padding: 25px 0;
 }
-/* line 888, ../sass/custom.scss */
+/* line 887, ../sass/custom.scss */
 .index #main #content #order .container hgroup {
   float: left;
   margin-top: -12px;
 }
 @media only screen and (max-width: 980px) {
-  /* line 888, ../sass/custom.scss */
+  /* line 887, ../sass/custom.scss */
   .index #main #content #order .container hgroup {
     float: none;
   }
 }
-/* line 896, ../sass/custom.scss */
+/* line 895, ../sass/custom.scss */
 .index #main #content #order .container hgroup h2, .index #main #content #order .container hgroup p {
   color: white;
 }
 @media only screen and (max-width: 980px) {
-  /* line 896, ../sass/custom.scss */
+  /* line 895, ../sass/custom.scss */
   .index #main #content #order .container hgroup h2, .index #main #content #order .container hgroup p {
     text-align: center;
   }
 }
-/* line 904, ../sass/custom.scss */
+/* line 903, ../sass/custom.scss */
 .index #main #content #order .container hgroup h2 {
   font-family: 'Dosis-Medium';
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 904, ../sass/custom.scss */
+  /* line 903, ../sass/custom.scss */
   .index #main #content #order .container hgroup h2 {
     margin-bottom: 0;
   }
 }
-/* line 913, ../sass/custom.scss */
+/* line 912, ../sass/custom.scss */
 .index #main #content #order .container hgroup p {
   font-size: 30px;
   font-family: 'Dosis-Light';
 }
 @media only screen and (max-width: 980px) {
-  /* line 913, ../sass/custom.scss */
+  /* line 912, ../sass/custom.scss */
   .index #main #content #order .container hgroup p {
     margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 913, ../sass/custom.scss */
+  /* line 912, ../sass/custom.scss */
   .index #main #content #order .container hgroup p {
     font-size: 20px;
   }
 }
-/* line 927, ../sass/custom.scss */
+/* line 926, ../sass/custom.scss */
 .index #main #content #order .container .btn-box {
   text-align: right;
 }
 @media only screen and (max-width: 980px) {
-  /* line 927, ../sass/custom.scss */
+  /* line 926, ../sass/custom.scss */
   .index #main #content #order .container .btn-box {
     text-align: center;
   }
 }
-/* line 934, ../sass/custom.scss */
+/* line 933, ../sass/custom.scss */
 .index #main #content #order .container .btn-box .white {
   background: white;
   font-size: 42px !important;
@@ -871,25 +871,25 @@ h2 {
   color: black !important;
 }
 @media only screen and (max-width: 870px) {
-  /* line 934, ../sass/custom.scss */
+  /* line 933, ../sass/custom.scss */
   .index #main #content #order .container .btn-box .white {
     font-size: 30px !important;
   }
 }
-/* line 948, ../sass/custom.scss */
+/* line 947, ../sass/custom.scss */
 .index #main #content #reviews {
   background: #f6f6f6;
   padding: 20px 0px 40px;
 }
-/* line 954, ../sass/custom.scss */
+/* line 953, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review {
   margin-bottom: 35px;
 }
-/* line 957, ../sass/custom.scss */
+/* line 956, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user {
   margin-bottom: 10px;
 }
-/* line 960, ../sass/custom.scss */
+/* line 959, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .mask {
   width: 36px;
   height: 36px;
@@ -899,86 +899,86 @@ h2 {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 969, ../sass/custom.scss */
+/* line 968, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .mask img {
   width: 100%;
 }
-/* line 974, ../sass/custom.scss */
+/* line 973, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .name, .index #main #content #reviews .container .reviews .review .user .date {
   font-size: 18px;
   vertical-align: middle;
 }
-/* line 979, ../sass/custom.scss */
+/* line 978, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .name {
   font-family: 'Dosis-Medium';
 }
-/* line 983, ../sass/custom.scss */
+/* line 982, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .date {
   color: #8b8b8b;
   font-family: 'Dosis-Regular';
 }
-/* line 989, ../sass/custom.scss */
+/* line 988, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review p {
   font-size: 18px;
   font-family: 'Dosis-Regular';
 }
-/* line 994, ../sass/custom.scss */
+/* line 993, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .review-message {
   margin-bottom: 10px;
 }
-/* line 997, ../sass/custom.scss */
+/* line 996, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .review-message p {
   padding: 18px 25px;
   background: white;
   border-radius: 4px;
 }
-/* line 1004, ../sass/custom.scss */
+/* line 1003, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .answer {
   border-left: 1px solid #8b8b8b;
   padding: 5px 0 5px 10px;
   margin-left: 30px;
 }
-/* line 1010, ../sass/custom.scss */
+/* line 1009, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .answer .user .name {
   color: #c4334b;
 }
-/* line 1018, ../sass/custom.scss */
+/* line 1017, ../sass/custom.scss */
 .index #main #content #reviews .container .add {
   text-transform: uppercase;
   color: #8b8b8b;
   font-size: 16px;
   font-family: 'Dosis-Regular';
 }
-/* line 1024, ../sass/custom.scss */
+/* line 1023, ../sass/custom.scss */
 .index #main #content #reviews .container .add:hover {
   text-decoration: underline;
 }
-/* line 1028, ../sass/custom.scss */
+/* line 1027, ../sass/custom.scss */
 .index #main #content #reviews .container .add img {
   width: 20px;
   vertical-align: bottom;
   margin-right: 5px;
 }
-/* line 1037, ../sass/custom.scss */
+/* line 1036, ../sass/custom.scss */
 .index #main #content #contacts {
   background: white;
   padding: 35px 0;
 }
-/* line 1043, ../sass/custom.scss */
+/* line 1042, ../sass/custom.scss */
 .index #main #content #contacts .container form .message {
   background: white;
 }
-/* line 1046, ../sass/custom.scss */
+/* line 1045, ../sass/custom.scss */
 .index #main #content #contacts .container form .message .message_text div {
   color: black;
   font-family: 'Dosis-Regular';
   font-size: 20px;
 }
-/* line 1053, ../sass/custom.scss */
+/* line 1052, ../sass/custom.scss */
 .index #main #content #contacts .container form .submit, .index #main #content #contacts .container form .btn-box {
   text-align: center;
 }
-/* line 1056, ../sass/custom.scss */
+/* line 1055, ../sass/custom.scss */
 .index #main #content #contacts .container form .submit .wine, .index #main #content #contacts .container form .btn-box .wine {
   display: inline-block;
   margin: 0;
@@ -989,15 +989,15 @@ h2 {
   text-shadow: none;
   transition: none;
 }
-/* line 1068, ../sass/custom.scss */
+/* line 1067, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line {
   padding: 0;
 }
-/* line 1071, ../sass/custom.scss */
+/* line 1070, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line.text {
   margin: 15px 0 25px;
 }
-/* line 1075, ../sass/custom.scss */
+/* line 1074, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line label.error {
   display: block;
   top: auto;
@@ -1006,48 +1006,48 @@ h2 {
   color: #c4334b;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1075, ../sass/custom.scss */
+  /* line 1074, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line label.error {
     bottom: -5px;
   }
 }
-/* line 1087, ../sass/custom.scss */
+/* line 1086, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25 {
   width: 23.5%;
   margin: 0 1%;
   float: left;
 }
-/* line 1092, ../sass/custom.scss */
+/* line 1091, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25:first-of-type {
   margin-left: 0;
 }
-/* line 1096, ../sass/custom.scss */
+/* line 1095, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25:last-of-type {
   margin-right: 0;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1087, ../sass/custom.scss */
+  /* line 1086, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line .w25 {
     width: 48.5%;
     margin: 0 1.5%;
   }
-  /* line 1104, ../sass/custom.scss */
+  /* line 1103, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line .w25:nth-of-type(odd) {
     margin-left: 0;
   }
-  /* line 1108, ../sass/custom.scss */
+  /* line 1107, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line .w25:nth-of-type(even) {
     margin-right: 0;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 1087, ../sass/custom.scss */
+  /* line 1086, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line .w25 {
     width: 100%;
     margin: 0;
   }
 }
-/* line 1118, ../sass/custom.scss */
+/* line 1117, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25 label, .index #main #content #contacts .container form .form_line .w25 .input {
   display: block;
   width: 100%;
@@ -1057,11 +1057,11 @@ h2 {
   float: none;
   padding-bottom: 5px;
 }
-/* line 1127, ../sass/custom.scss */
+/* line 1126, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25 label.focus, .index #main #content #contacts .container form .form_line .w25 .input.focus {
   box-shadow: none;
 }
-/* line 1133, ../sass/custom.scss */
+/* line 1132, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line label, .index #main #content #contacts .container form .form_line input[type="text"], .index #main #content #contacts .container form .form_line input[type="email"], .index #main #content #contacts .container form .form_line input[type="tel"], .index #main #content #contacts .container form .form_line textarea {
   font-size: 18px;
   font-family: 'Dosis-Regular';
@@ -1069,7 +1069,7 @@ h2 {
   text-shadow: none;
   color: black;
 }
-/* line 1141, ../sass/custom.scss */
+/* line 1140, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line textarea, .index #main #content #contacts .container form .form_line input[type="text"], .index #main #content #contacts .container form .form_line input[type="email"], .index #main #content #contacts .container form .form_line input[type="tel"] {
   background: #f6f6f6;
   border-radius: 4px;
@@ -1079,58 +1079,58 @@ h2 {
   width: calc(100% - 20px);
 }
 @media only screen and (max-width: 870px) {
-  /* line 1141, ../sass/custom.scss */
+  /* line 1140, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line textarea, .index #main #content #contacts .container form .form_line input[type="text"], .index #main #content #contacts .container form .form_line input[type="email"], .index #main #content #contacts .container form .form_line input[type="tel"] {
     margin: 0 0 20px;
   }
 }
-/* line 1154, ../sass/custom.scss */
+/* line 1153, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line textarea {
   height: 150px;
 }
-/* line 1162, ../sass/custom.scss */
+/* line 1161, ../sass/custom.scss */
 .index #main #content #terms {
   background: #f6f6f6;
   padding: 35px 0;
 }
-/* line 1167, ../sass/custom.scss */
+/* line 1166, ../sass/custom.scss */
 .index #main #content #terms .container .text {
   width: 50%;
   float: left;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1167, ../sass/custom.scss */
+  /* line 1166, ../sass/custom.scss */
   .index #main #content #terms .container .text {
     width: 100%;
     float: none;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 1177, ../sass/custom.scss */
+  /* line 1176, ../sass/custom.scss */
   .index #main #content #terms .container .text {
     margin-bottom: 20px;
   }
 }
-/* line 1183, ../sass/custom.scss */
+/* line 1182, ../sass/custom.scss */
 .index #main #content #terms .container .text h5, .index #main #content #terms .container .text p {
   font-family: 'Dosis-Regular';
 }
 @media only screen and (max-width: 870px) {
-  /* line 1183, ../sass/custom.scss */
+  /* line 1182, ../sass/custom.scss */
   .index #main #content #terms .container .text h5, .index #main #content #terms .container .text p {
     text-align: center;
   }
 }
-/* line 1191, ../sass/custom.scss */
+/* line 1190, ../sass/custom.scss */
 .index #main #content #terms .container .text h5 {
   margin-bottom: 35px;
   font-size: 24px;
 }
-/* line 1196, ../sass/custom.scss */
+/* line 1195, ../sass/custom.scss */
 .index #main #content #terms .container .text p {
   font-size: 20px;
 }
-/* line 1201, ../sass/custom.scss */
+/* line 1200, ../sass/custom.scss */
 .index #main #content #terms .container table {
   border-collapse: separate;
   border-spacing: 0;
@@ -1138,44 +1138,44 @@ h2 {
   float: left;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1201, ../sass/custom.scss */
+  /* line 1200, ../sass/custom.scss */
   .index #main #content #terms .container table {
     width: 100%;
     float: none;
   }
-  /* line 1211, ../sass/custom.scss */
+  /* line 1210, ../sass/custom.scss */
   .index #main #content #terms .container table:last-of-type {
     top: -1px;
   }
 }
-/* line 1218, ../sass/custom.scss */
+/* line 1217, ../sass/custom.scss */
 .index #main #content #terms .container table tr:last-of-type td {
   border-bottom: 1px solid #e2e2e2;
 }
-/* line 1223, ../sass/custom.scss */
+/* line 1222, ../sass/custom.scss */
 .index #main #content #terms .container table tr td {
   font-size: 18px;
   font-family: 'Dosis-Regular';
   border-top: 1px solid #e2e2e2;
   padding: 4px 0;
 }
-/* line 1236, ../sass/custom.scss */
+/* line 1235, ../sass/custom.scss */
 .index #footer {
   background: #901e30;
   padding: 35px 0;
 }
-/* line 1240, ../sass/custom.scss */
+/* line 1239, ../sass/custom.scss */
 .index #footer .container {
   background: url(../img/logo_footer.png) no-repeat center 110px;
   background-size: 230px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1240, ../sass/custom.scss */
+  /* line 1239, ../sass/custom.scss */
   .index #footer .container {
     padding-top: 185px;
   }
 }
-/* line 1248, ../sass/custom.scss */
+/* line 1247, ../sass/custom.scss */
 .index #footer .container .top {
   width: 76px;
   height: 76px;
@@ -1187,76 +1187,76 @@ h2 {
   left: 50%;
   margin-left: -38px;
 }
-/* line 1260, ../sass/custom.scss */
+/* line 1259, ../sass/custom.scss */
 .index #footer .container .info, .index #footer .container .contacts {
   width: 50%;
   float: right;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1260, ../sass/custom.scss */
+  /* line 1259, ../sass/custom.scss */
   .index #footer .container .info, .index #footer .container .contacts {
     width: 100%;
     float: none;
   }
 }
-/* line 1271, ../sass/custom.scss */
+/* line 1270, ../sass/custom.scss */
 .index #footer .container .info .copyright, .index #footer .container .info .company_info {
   font-family: 'Dosis-Regular';
 }
-/* line 1275, ../sass/custom.scss */
+/* line 1274, ../sass/custom.scss */
 .index #footer .container .info .copyright {
   text-align: left;
   font-size: 20px;
   color: white;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1275, ../sass/custom.scss */
+  /* line 1274, ../sass/custom.scss */
   .index #footer .container .info .copyright {
     text-align: center;
   }
 }
-/* line 1285, ../sass/custom.scss */
+/* line 1284, ../sass/custom.scss */
 .index #footer .container .info .company_info {
   font-size: 18px;
   color: #b6b6b6;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1285, ../sass/custom.scss */
+  /* line 1284, ../sass/custom.scss */
   .index #footer .container .info .company_info {
     text-align: center;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 1295, ../sass/custom.scss */
+  /* line 1294, ../sass/custom.scss */
   .index #footer .container .contacts {
     margin-bottom: 20px;
   }
 }
-/* line 1300, ../sass/custom.scss */
+/* line 1299, ../sass/custom.scss */
 .index #footer .container .contacts .email, .index #footer .container .contacts .phone {
   text-align: right;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1300, ../sass/custom.scss */
+  /* line 1299, ../sass/custom.scss */
   .index #footer .container .contacts .email, .index #footer .container .contacts .phone {
     text-align: center;
   }
 }
-/* line 1307, ../sass/custom.scss */
+/* line 1306, ../sass/custom.scss */
 .index #footer .container .contacts .email.email, .index #footer .container .contacts .phone.email {
   margin-bottom: 35px;
 }
-/* line 1310, ../sass/custom.scss */
+/* line 1309, ../sass/custom.scss */
 .index #footer .container .contacts .email.email a:hover, .index #footer .container .contacts .phone.email a:hover {
   text-decoration: underline;
 }
-/* line 1315, ../sass/custom.scss */
+/* line 1314, ../sass/custom.scss */
 .index #footer .container .contacts .email span, .index #footer .container .contacts .phone span {
   width: 200px;
   text-align: center;
   display: inline-block;
 }
-/* line 1321, ../sass/custom.scss */
+/* line 1320, ../sass/custom.scss */
 .index #footer .container .contacts .email span, .index #footer .container .contacts .email span a, .index #footer .container .contacts .phone span, .index #footer .container .contacts .phone span a {
   font-size: 24px;
   font-family: 'Dosis-Regular';
