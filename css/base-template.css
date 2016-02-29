@@ -1,0 +1,331 @@
+
+/* form */
+form .form_line{
+    padding: 0 2px 24px 0;
+    vertical-align: top;
+}
+form .form_line.submit{
+    padding-bottom: 0;
+}
+form .form_line > label {
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    font-size: 14px;
+    padding: 6px 0;
+}
+form .form_line .select {
+    min-width: 70px;
+    width: 44%;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    float: right;
+    text-indent: 8px;
+    padding: 6px 0;
+    overflow: hidden;
+}
+form .form_line select {
+    color: #333;
+    background: url("{{image_url}}select.png") 78% 80% no-repeat;
+}
+form .form_line select option{
+    color: #333 !important;
+}
+@-moz-document url-prefix() {
+    form .form_line select {
+        color: #333;
+        background: url("{{image_url}}select.png") 80% 70% no-repeat;
+    }
+}
+form .form_line .input {
+    min-width: 70px;
+    width: 44%;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    float: right;
+    padding: 6px 0;
+}
+form .form_line input {
+    color: #333;
+    margin: 0 10px;
+    width: 94%;
+}
+form .form_line input[type="submit"], .message .back_button{
+    background: #FF7C0E;
+    color: #fff;
+    width: 57%;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 10px -4px #000;
+    border: 1px solid #BE5700;
+    text-shadow: 0 0 5px #BE5700;
+    margin:0 20px 0 0;
+    transition: .4s;
+    padding: 10px;
+    text-indent: 0;
+}
+form .form_line input[type="submit"]:hover, .message .back_button:hover{
+    background-color: #FC8D2F;
+}
+form .form_line .focus{
+    border: 1px solid #FDF931;
+    box-shadow: inset 0 0 5px #aaa;
+    background: #fff;
+}
+form .form_line .checkbox{
+    width: 100%;
+}
+form .form_line input[type=checkbox] {
+    position: absolute;
+    top: 1px;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+form .form_line label[for="checkbox"]{
+    width: 90%;
+    min-width: 195px;
+    color: #fff;
+    line-height: 19px;
+    z-index: 100;
+    padding: 0 0 0 25px;
+    top: 0;
+    font-size: 15px;
+}
+form .form_line label[for="checkbox"] i {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    vertical-align: middle;
+    background: url("{{image_url}}checkbox.png") left top no-repeat;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+form .form_line input[type="checkbox"]:checked + label[for="checkbox"] i, form .form_line input[type="checkbox"]:checked + label + label[for="checkbox"] i  {
+    background: url("{{image_url}}checkbox.png") -27px top no-repeat;
+}
+form .form_line label[for="checkbox"] span{
+    border-bottom: 1px dashed #FDF931;
+    cursor: pointer;
+}
+form .form_line .w50{
+    width: 48%;
+    margin-left: 2%;
+}
+form .form_line .w50:first-child{
+    margin-left: 0;
+    width: 49%;
+}
+form .form_line .w50 .input{
+    float: none;
+    display: inline-block;
+    width: 100%;
+}
+form .form_line .w50 > label{
+    font-size: 13px;
+    padding: 0 0 5px 0;
+}
+form .form_line textarea {
+    width: 95%;
+    height: 85px;
+    color: #333;
+    background-color: transparent;
+    padding: 5px 0;
+    font-family: 'Roboto', sans-serif !important;
+}
+form .form_line .textarea {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-indent: 8px;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+/* form error */
+form .form_line label.error {
+    font-size: 9px;
+    color: #FDF931;
+    width: 117%;
+    letter-spacing: 1px;
+    text-indent: 0;
+    bottom: -17px;
+    left: 3px;
+}
+form .form_line .field-error:not(.checkbox){
+    border: 1px solid #F90000;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.85);
+    color: #F90000;
+}
+form .form_line .focus.field-error{
+    background: #fff;
+}
+form .form_line label.error[for="agree"]{
+    left: 25px;
+}
+form .message_text div{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 24px;
+    font-size: 15px;
+}
+form .message .back_button{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: normal;
+}
+/* main */
+#main{
+	background: #f7f8fa;
+	padding-top: 60px;
+}
+.form #main{
+    padding-top: 1px;
+}
+#main .title_volsorForm{
+    text-align: center;
+    font-size: 32px;
+    line-height: 53px;
+    margin: 40px 0 20px 0;
+    color: #454545;
+    font-weight: 400;
+}
+#main .text_volsorForm{
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    color: #454545;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+#main #volsorForm{
+    padding-bottom: 30px;
+}
+/* header */
+#header{
+	background: #fff;
+	padding: 10px 0 8px;
+	position: fixed;
+	width: 100%;
+  z-index: 102;
+  box-shadow: 0 1px 20px -6px #999;
+  top: 0;
+  left: 0;
+}
+#header #logo{
+	width: 14%;
+    position: relative;
+}
+#header #logo img{
+    height: 40px;
+    padding-top: 5px;
+}
+#header #logo span{
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    width: 200px;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+#header #menu_top{
+	width: 85%;
+    padding-top: 20px;
+}
+#header #menu_top span{
+	padding: 5px 0;
+	margin: 0 1%;
+    color: #656565;
+}
+#header #menu_top a.active, #header #menu_top a:hover{
+	color: #01994d;
+	transition: .5s;
+}
+#header .toggle{
+    text-align: right;
+}
+#header .mobile_toggle{
+    color: #fff;
+    width: 65px;
+    height: 74px;
+    text-align: center;
+    background: url("../img/toggle.png") no-repeat center center #DD0;
+}
+
+/* footer */
+#footer{
+    background-color: #2f3539;
+    padding: 20px 0;
+    color: #ddd;
+}
+#footer .menu_footer {
+    text-align: center;
+    padding: 10px 0;
+    line-height: 20px;
+}
+#footer .menu_footer a, #footer .menu_footer span {
+    padding: 0 10px;
+	word-wrap: normal;
+	white-space: nowrap;
+}
+#footer .menu_footer a:hover, #footer .menu_footer span:hover {
+    color: #01994d;
+    transition: .5s;
+    cursor: pointer;
+}
+#footer .copyright{
+    text-align: center;
+    padding: 10px 0;
+    color: #bbb;
+}
+
+/* unsubscribe */
+#unsubscribe_pop_up{
+    padding: 0;
+    text-align: center;
+    background: rgb(1, 153, 77);
+    max-width: 400px;
+}
+#unsubscribe_pop_up .title{
+    padding: 14px 6px 6px 6px;
+    line-height: 50px;
+    font-size: 31px;
+    background: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+#unsubscribe_pop_up form{
+    text-align: center;
+    padding: 20px 20px 0 20px;
+}
+#unsubscribe_pop_up p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#unsubscribe_pop_up form .form_line{
+    text-align: center;
+}
+#unsubscribe_pop_up form .form_line .input{
+    float: none;
+	width: 100%;
+}
+#unsubscribe_pop_up form .form_line input[type=submit]{
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+}
+#unsubscribe_pop_up .message{
+    background: rgb(1, 153, 77);
+    color: #fff;
+}
