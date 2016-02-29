@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HELPi půjčka</title>
+  <meta name="keywords" content="{{ theme.keywords }}" />
+  <meta name="description" content="{{ theme.description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, height=device-height">
+  <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body class="index">
+  <div id="header">
+    <div class="mobile_toggle"></div>
+    <div class="container">
+      <div id="logo">
+        <img src="img/logo_large.png" alt="logo">
+        <!-- if need text logo -->
+          <span></span>
+        <!-- ifend -->
+      </div>
+      <div id="menu_top">
+        <div class="toggle">
+          <span><a href="#form">Žádost o půjčku</a></span>
+          <span><a href="#howitworks">Výhody půjčky</a></span>
+          <span><a href="#faq">Časté dotazy</a></span>
+          <span><a href="#reviews">Diskuse</a></span>
+          <span class="phone"><img src="img/phone.png" alt="phone"><br>800 155 555</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="content">
+
+      <div id="main_title">
+        <div class="container">
+          <img class="men" src="img/man.png">
+          <hgroup>
+            <h1>
+              <strong>Ušetřete si starosti</strong> s HELPi půjčkou.
+              <br>
+              <span>Půjčka s <strong>lidskostí a pochopením.</strong></span>
+            </h1>
+            <p>Půjčte si až <strong>300 000 Kč bez nutnosti ručení</strong>.</p>
+            <p>Vyplňte nezávaznou online žádost a získejte<br><strong>peníze do 24 hodin</strong>!</p>
+          </hgroup>
+          <div class="btn-box">
+            <a href="" class="btn green">Žádost o půjčku</a>
+            <img class="arrow" src="img/arrow.png">
+          </div>
+        </div>
+      </div>
+
+      <div id="form">
+        <div class="container">
+          <div id="advantages">
+            <hgroup>
+              <h2>
+                Dnes jsme již
+                <br>
+                <strong>schválili půjčku</strong>:
+                <br>
+                <span>Buďte mezi nimi i vy!</span>
+              </h2>
+            </hgroup>
+            <div class="note">
+              <p><span>136</span>klientům</p>
+            </div>
+            <ul class="advantage-list">
+              <li>Půjčka od <strong>10 000 Kč</strong> do <strong>300 000 Kč</strong></li>
+              <li>Jasné a přehledné podmínky</li>
+              <li>Rychlé <strong>vyřízení do 24 hodin</strong></li>
+              <li><strong>Žádné</strong> skryté poplatky ani poplatky předem</li>
+              <li><strong>Bez</strong> nutnosti <strong>ručení</strong> a <strong>bez</strong> náhledu do <strong>registrů</strong></li>
+              <li>Možnost <strong>změny výši splátky</strong> nebo odložení</li>
+            </ul>
+            <div class="code-box">
+              <label>
+                <p><span><strong>Akce</strong></span>pouze pro vás!</p>
+              </label>
+              <div class="terms">
+                <p><strong>Vyplňte</strong> online žádost<br>a <strong>získejte slevu</strong> na<br>další půjčku!</p>
+                <p class="code">Váš kód: 7x68dsH5</p>
+              </div>
+            </div>
+          </div>
+
+<!--           <div class="ShortForm">
+            <form id="ShortForm">
+              <div class="message ok">
+                <img src="//financecdn.com/cms/testing/landings/img/on_loans/loader.gif" height="140" alt="loader">
+              </div>
+              <div class="message error">
+                <div class="message_text">
+                  <div>Vaše zpráva nebyla odeslána.<br /> Prosím zkuste to později nebo se s námi spojte pomocí emailu: info@volsor.com</div>
+                  <div class="back_button">Zpět na žádost</div>
+                </div>
+              </div>
+              <div class="form_line slider_amount">
+                <label for="requested_amount">Kolik peněz si chcete půjčit?
+                    
+                  <input type="text" name="requested_amount" id="requested_amount" class="required" min="500" max="4500" step="500" data-signature="Kč" data-msg-required="Toto pole je povinné" value="2500" pattern="[0-9]">
+                </label>
+                <div class="input">
+                  <div class="slider" data-for="#requested_amount"></div>
+                </div>
+              </div>
+
+              <div class="form_line slider_period">
+                <label for="period">Na jak dlouho?
+                  <input type="text" name="period" id="period" class="required" min="1" max="30" step="1" data-signature="den" data-msg-required="Toto pole je povinné" value="6" pattern="[0-9]">
+                  <span class="value">den</span>
+                </label>
+                <div class="input">
+                  <div class="slider" data-for="#period"></div>
+                </div>
+              </div>
+
+              <div class="form_line">
+                <div class="w50">
+                  <label for="shortform_name">Jméno</label>
+                  <div class="input">
+                    <input type="text" name="first_name" id="first_name" class="required" data-msg-required="Toto pole je povinné">
+                  </div>
+                </div>
+
+                <div class="w50">
+                  <label for="feedback_last_name">Příjmení</label>
+                  <div class="input">
+                    <input type="text" name="last_name" id="last_name" class="required" data-msg-required="Toto pole je povinné">
+                  </div>
+                </div>
+
+                <div class="clearfix"></div>
+              </div>
+
+              <div class="form_line">
+                <div class="w50">
+                  <label for="shortform_email">E-mail</label>
+                  <div class="input email">
+                    <input type="email" name="email" id="email" class="required" data-msg-required="Toto pole je povinné" data-msg-email="Nesprávný formát">
+                  </div>
+                </div>
+
+                <div class="w50">
+                  <label for="shortform_phone">Telefon</label>
+                  <div class="input phone">
+                    <input type="tel" name="cell_phone" maxlength="16" id="cell_phone" class="required customphone" data-msg-required="Toto pole je povinné" data-msg-customphone="Nesprávný formát" data-msg-maxlength="Nesprávný formát">
+                  </div>
+                </div>
+
+                <div class="clearfix"></div>
+              </div>
+
+              <div class="form_line">
+                <div class="w50">
+                  <label for="">Rodinný stav</label>
+                  <div class="input">
+                    <select>
+                      <option>vyberte...</option>
+                      <option>vyberte...</option>
+                      <option>vyberte...</option>
+                      <option>vyberte...</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+
+              <div class="form_line agreement">
+                <div class="checkbox">
+                  <input type="checkbox" name="agree" id="checkbox" class="required" data-msg-required="Musíte souhlasit s podmínkami">
+                  <label for="checkbox"><i></i>Souhlasím se zpracováním <span class='modal' id='privacy_label' data-agree-text='Souhlasím se zpracováním osobních údajů a s podmínkami'>osobních údajů</span> a s <span class='modal' id='terms_label' data-agree-text='Souhlasím se zpracováním osobních údajů a s podmínkami'>podmínkami služby</span></label>
+                </div>
+              </div>
+              <div class="form_line submit">
+                <div class="btn-box">
+                  <input type="submit" value="Pokračovat >" class="btn green">
+                </div>
+              </div>  
+            </form>
+          </div> -->
+
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <div id="howitworks">
+        <div class="container">
+          <h3>Jak Získat Půjčku</h3>
+          <ul>
+            <li>
+              <label>
+                <img src="img/1.png">
+              </label>
+              <h4><strong>1.</strong> Vyplňte online žádost</h4>
+              <p>Stačí vyplnit jednoduchou online žádost a vyčkat krátkou chvíli na schválení.</p>
+            </li>
+            <li>
+              <label>
+                <img src="img/2.png">
+              </label>
+              <h4><strong>2.</strong> Během chvíle schválíme</h4>
+              <p>Žádost během krátké chvíle schválíme a zavoláme vám.</p>
+            </li>
+            <li>
+              <label>
+                <img src="img/3.png">
+              </label>
+              <h4><strong>3.</strong> Peníze máte k dispozici</h4>
+              <p>Po schválení do 24 hodin odešleme peníze na váš účet.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="faq">
+        <div class="container">
+          <h3>Časté Dotazy</h3>
+          <ul>
+            <li>
+              <a href="javascript:void(0)">Jaké jsou podmínky pro získání půjčky?</a>
+              <p>Pro získání půjčky musíte být zletilá osoba, mít stálý zdroj příjmu a splňovat podmínky</p>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Jaké jsou podmínky pro získání půjčky?</a>
+              <p>Pro získání půjčky musíte být zletilá osoba, mít stálý zdroj příjmu a splňovat podmínky</p>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Jaké jsou podmínky pro získání půjčky?</a>
+              <p>Pro získání půjčky musíte být zletilá osoba, mít stálý zdroj příjmu a splňovat podmínky</p>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Jaké jsou podmínky pro získání půjčky?</a>
+              <p>Pro získání půjčky musíte být zletilá osoba, mít stálý zdroj příjmu a splňovat podmínky</p>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Jaké jsou podmínky pro získání půjčky?</a>
+              <p>Pro získání půjčky musíte být zletilá osoba, mít stálý zdroj příjmu a splňovat podmínky</p>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Jaké jsou podmínky pro získání půjčky?</a>
+              <p>Pro získání půjčky musíte být zletilá osoba, mít stálý zdroj příjmu a splňovat podmínky</p>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Jaké jsou podmínky pro získání půjčky?</a>
+              <p>Pro získání půjčky musíte být zletilá osoba, mít stálý zdroj příjmu a splňovat podmínky</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="order">
+        <div class="container">
+          <hgroup>
+            <h2>Nečekejte a vyplňte online žádost.</h2>
+            <p>Již zítra můžete mít peníze!</p>
+          </hgroup>
+          <div class="btn-box">
+            <a href="" class="btn white">Zažádat O Půjčku</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="reviews">
+        <div class="container">
+          <h3>Diskuse</h3>
+
+          <div class="reviews">
+            <div class="review">
+              <div class="review-message">
+                <div class="user">
+                  <div class="mask">
+                    <img src="img/user.png">
+                  </div>
+                  <span class="name">Jakub Novák |</span> <span class="date">01.20.2016 17:38</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In dapibus augue non sapien. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante?</p>
+              </div>
+              <div class="answer">
+                <div class="user">
+                  <div class="mask">
+                    <img src="img/h.png">
+                  </div>
+                  <span class="name">HELPi půjčka |</span> <span class="date">01.20.2016 17:38</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In dapibus augue non sapien. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante?</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <div class="review-message">
+                <div class="user">
+                  <div class="mask">
+                    <img src="img/user.png">
+                  </div>
+                  <span class="name">Jakub Novák |</span> <span class="date">01.20.2016 17:38</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In dapibus augue non sapien. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante?</p>
+              </div>
+              <div class="answer">
+                <div class="user">
+                  <div class="mask">
+                    <img src="img/h.png">
+                  </div>
+                  <span class="name">HELPi půjčka |</span> <span class="date">01.20.2016 17:38</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In dapibus augue non sapien. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante?</p>
+              </div>
+            </div>
+          </div>
+
+          <div><a href="" class="add"><img src="img/plus.png">Zobrazit Starší Příspěvky</a></div>
+        </div>
+      </div>
+
+      <div id="contacts">
+        <div class="container">
+          <h3>Přidat příspevek</h3>
+          <div class="feedback">
+            <form class="feedback_form" id="FeedbackForm" novalidate="novalidate">
+              <div class="message ok">
+                <div class="message_text">
+                  Váš vzkaz byl úspěšně odeslán
+                </div>
+              </div>
+              <div class="message error">
+                <div class="message_text">
+                  <div>Vaše zpráva nebyla odeslána.<br> Prosím zkuste to později nebo se s námi spojte pomocí emailu: info@volsor.com</div>
+                  <div class="btn-box">
+                    <div class="back_button btn wine">Zpět na žádost</div>
+                  </div>
+                </div>
+              </div>
+              <div class="form_line">
+                <div class="w25">
+                  <label for="feedback_name">Jméno</label>
+
+                  <div class="input"><input type="text" name="name" id="feedback_name" class="required" data-msg-required="Toto pole je povinné"></div>
+                </div>
+
+                <div class="w25">
+                  <label for="feedback_last_name">Příjmení</label>
+
+                  <div class="input"><input type="text" name="last_name" id="feedback_last_name" class="required" data-msg-required="Toto pole je povinné"></div>
+                </div>
+
+                <div class="w25">
+                  <label for="feedback_email">E-mail</label>
+
+                  <div class="input"><input type="email" name="owner_email" id="feedback_email" class="required" data-msg-required="Toto pole je povinné" data-msg-email="Nesprávný formát"></div>
+                </div>
+
+                <div class="w25">
+                  <label for="feedback_phone">Telefon</label>
+
+                  <div class="input"><input type="tel" name="owner_cell_phone" id="feedback_phone" maxlength="16" class="required customphone" data-msg-required="Toto pole je povinné" data-msg-customphone="Nesprávný formát" data-msg-maxlength="Nesprávný formát"></div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="form_line text">
+                <label for="feedback_text">Text</label>
+
+                <textarea class="required" data-msg-required="Toto pole je povinné" id="feedback_text"></textarea>
+              </div>
+              <div class="form_line submit">
+                <input type="submit" value="Vložit Příspěvek" class="btn wine">
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="terms">
+        <div class="container">
+          <div class="text">
+            <h5>Reprezentativní příklad splácení</h5>
+            <p>
+              Vaše nabídka vám bude vytvořena na míru.
+              <br>
+              Tohle je příklad typického úvěru poskytovaného
+              <br>
+              našim klientům.
+            </p>
+          </div>
+
+          <table>
+            <tr>
+              <td>Úvěr: 25000 Kč</td>
+            </tr>
+            <tr>
+              <td>Úroková sazba: 59,23 % p.a.</td>
+            </tr>
+            <tr>
+              <td>Délka úvěru: 12 měsíčních splátek</td>
+            </tr>
+            <tr>
+              <td>Poplatky: 14808,56 Kč</td>
+            </tr>
+            <tr>
+              <td>Celkový úvěr: 39808,56 Kč</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+              <td>Splátka: 3317,38 Kč měsíčně</td>
+            </tr>
+            <tr>
+              <td>RPSN: 151,82 %</td>
+            </tr>
+            <tr>
+              <td>Skryté poplatky: 0 Kč</td>
+            </tr>
+            <tr>
+              <td>Dodatečné náklady: 0 Kč</td>
+            </tr>
+            <tr>
+              <td>Předčasné splacení: zdarma!</td>
+            </tr>
+        </table>
+        <div class="clearfix"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <div class="contacts">
+        <div class="email"><span><img src="img/email-footer.png" alt="phone"><br><a href="mailto:info@helpipujcka.cz">info@helpipujcka.cz</a></span></div>
+        <div class="phone"><span><img src="img/phone-footer.png" alt="phone"><br>800 155 555</span></div>
+      </div>
+      <div class="info">
+        <div class="copyright">Copyright © 2016 helpipujcka.cz<br>Všechna práva vyhrazena.</div>
+        <div class="company_info">
+          VOLSOR s.r.o.
+          <br>
+          Na Příkopě 392/9
+          <br>
+          110 00 Praha 1 - Staré Město
+          <br>
+          IČO: 013 85 011
+          <br>
+          DIČ: CZ01385011
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <a href="" class="top"></a>
+    </div>
+  </div>
+
+  <div>
+    <div id="unsubscribe_pop_up" class="mfp-hide">
+      <div class="text2">
+        <div class="title">Wyloguj się</div>
+        <form id="UnsubscribeForm">
+          <div class="message ok">
+            <div class="message_text">locale.message_text_ok</div>
+          </div>
+          <div class="message error">
+            <div class="message_text">
+              <div>locale.message_text_error</div>
+              <div class="back_button">locale.back_button</div>
+            </div>
+          </div>
+          <p>locale.text_unsubscribe</p>
+          <div class="form_line">
+            <div class="input"><input type="email" name="email" id="uns_email" placeholder="locale.placeholder_email" class="required" data-msg-required="locale.error_required" data-msg-email="locale.error_email"></div>
+          </div>
+          <div class="form_line">
+            <input type="submit" value="locale.button_submit_feedback">
+          </div>
+          <input name="honeypot_name" value="" type="email" size="1" class="honey">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/base-template.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <script type="text/javascript" src="js/app.v2.12.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>
