@@ -48,17 +48,38 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 59, ../sass/custom.scss */
+@font-face {
+  font-family: 'Titillium-Light';
+  src: url("../fonts/Titillium-Light.eot");
+  src: local("☺"), url("../fonts/Titillium-Light.woff") format("woff"), url("../fonts/Titillium-Light.ttf") format("truetype"), url("../fonts/Titillium-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium-Regular';
+  src: url("../fonts/Titillium-SemiBold.eot");
+  src: local("☺"), url("../fonts/Titillium-Regular.woff") format("woff"), url("../fonts/Titillium-Regular.ttf") format("truetype"), url("../fonts/Titillium-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Titillium-SemiBold';
+  src: url("../fonts/Titillium-SemiBold.eot");
+  src: local("☺"), url("../fonts/Titillium-SemiBold.woff") format("woff"), url("../fonts/Titillium-SemiBold.ttf") format("truetype"), url("../fonts/Titillium-SemiBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 83, ../sass/custom.scss */
 strong {
   font-family: 'Dosis-SemiBold';
 }
 
-/* line 63, ../sass/custom.scss */
+/* line 87, ../sass/custom.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 67, ../sass/custom.scss */
+/* line 91, ../sass/custom.scss */
 h3 {
   color: #515151;
   font-size: 40px;
@@ -68,124 +89,124 @@ h3 {
   margin-bottom: 30px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 67, ../sass/custom.scss */
+  /* line 91, ../sass/custom.scss */
   h3 {
     font-size: 30px;
   }
 }
 
-/* line 80, ../sass/custom.scss */
+/* line 104, ../sass/custom.scss */
 h2 {
   font-size: 40px;
 }
 @media only screen and (max-width: 500px) {
-  /* line 80, ../sass/custom.scss */
+  /* line 104, ../sass/custom.scss */
   h2 {
     font-size: 28px;
   }
 }
 
-/* line 88, ../sass/custom.scss */
+/* line 112, ../sass/custom.scss */
 .index {
   min-width: 320px;
 }
-/* line 91, ../sass/custom.scss */
+/* line 115, ../sass/custom.scss */
 .index #header {
   padding: 13px 0 10px;
   height: 83px;
 }
 @media only screen and (max-width: 980px) {
-  /* line 91, ../sass/custom.scss */
+  /* line 115, ../sass/custom.scss */
   .index #header {
     padding: 23px 0 10px;
     height: 73px;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 91, ../sass/custom.scss */
+  /* line 115, ../sass/custom.scss */
   .index #header {
     padding: 0;
     height: auto;
   }
 }
-/* line 105, ../sass/custom.scss */
+/* line 129, ../sass/custom.scss */
 .index #header .mobile_toggle {
   margin: 3px 0;
   background: url("../img/menu_grey.png") no-repeat center center white;
   background-size: 50%;
 }
-/* line 110, ../sass/custom.scss */
+/* line 134, ../sass/custom.scss */
 .index #header .mobile_toggle:hover {
   background-image: url("../img/menu_green.png");
 }
-/* line 115, ../sass/custom.scss */
+/* line 139, ../sass/custom.scss */
 .index #header .container {
   padding: 5px 15px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 115, ../sass/custom.scss */
+  /* line 139, ../sass/custom.scss */
   .index #header .container {
     padding: 19px 15px;
   }
 }
-/* line 122, ../sass/custom.scss */
+/* line 146, ../sass/custom.scss */
 .index #header .container #logo {
   vertical-align: middle;
   width: 22%;
 }
 @media only screen and (max-width: 870px) {
-  /* line 122, ../sass/custom.scss */
+  /* line 146, ../sass/custom.scss */
   .index #header .container #logo {
     width: 50%;
     max-width: 175px;
   }
 }
-/* line 131, ../sass/custom.scss */
+/* line 155, ../sass/custom.scss */
 .index #header .container #logo img {
   height: auto;
   width: 100%;
   padding-top: 0;
 }
-/* line 138, ../sass/custom.scss */
+/* line 162, ../sass/custom.scss */
 .index #header .container #menu_top {
   width: 77%;
   padding-top: 0;
   vertical-align: middle;
 }
-/* line 144, ../sass/custom.scss */
+/* line 168, ../sass/custom.scss */
 .index #header .container #menu_top .toggle span {
   vertical-align: middle;
   padding: 29px 0;
 }
 @media only screen and (max-width: 870px) {
-  /* line 144, ../sass/custom.scss */
+  /* line 168, ../sass/custom.scss */
   .index #header .container #menu_top .toggle span {
     padding: 10px 0;
   }
 }
-/* line 153, ../sass/custom.scss */
+/* line 177, ../sass/custom.scss */
 .index #header .container #menu_top .toggle span.active a {
   color: white;
   background: #61b573;
   border-radius: 1000px;
   cursor: default;
 }
-/* line 159, ../sass/custom.scss */
+/* line 183, ../sass/custom.scss */
 .index #header .container #menu_top .toggle span.active a:hover {
   color: white;
 }
-/* line 165, ../sass/custom.scss */
+/* line 189, ../sass/custom.scss */
 .index #header .container #menu_top .toggle span a {
   font-size: 20px;
   font-family: 'Dosis-SemiBold';
   color: #565656;
   padding: 9px 2% 10px;
 }
-/* line 171, ../sass/custom.scss */
+/* line 195, ../sass/custom.scss */
 .index #header .container #menu_top .toggle span a:hover {
   color: #61b573;
 }
-/* line 176, ../sass/custom.scss */
+/* line 200, ../sass/custom.scss */
 .index #header .container #menu_top .toggle span.phone {
   width: 15%;
   display: inline-block;
@@ -195,32 +216,33 @@ h2 {
   font-family: 'Dosis-Regular';
 }
 @media only screen and (max-width: 1200px) {
-  /* line 176, ../sass/custom.scss */
+  /* line 200, ../sass/custom.scss */
   .index #header .container #menu_top .toggle span.phone {
     font-size: 20px;
   }
 }
 @media only screen and (max-width: 980px) {
-  /* line 176, ../sass/custom.scss */
+  /* line 200, ../sass/custom.scss */
   .index #header .container #menu_top .toggle span.phone {
     display: none;
   }
 }
-/* line 192, ../sass/custom.scss */
+/* line 216, ../sass/custom.scss */
 .index #header .container #menu_top .toggle span.phone img {
   width: 36px;
 }
-/* line 202, ../sass/custom.scss */
+/* line 226, ../sass/custom.scss */
 .index #main {
   padding-top: 106px;
+  background-color: white;
 }
 @media only screen and (max-width: 870px) {
-  /* line 202, ../sass/custom.scss */
+  /* line 226, ../sass/custom.scss */
   .index #main {
     padding-top: 80px;
   }
 }
-/* line 209, ../sass/custom.scss */
+/* line 234, ../sass/custom.scss */
 .index #main .btn {
   display: inline-block;
   border-radius: 1000px;
@@ -232,37 +254,46 @@ h2 {
   box-shadow: none;
   border: none;
   text-shadow: none;
+  transition: background 300ms ease-out;
 }
-/* line 221, ../sass/custom.scss */
+/* line 247, ../sass/custom.scss */
 .index #main .btn.green {
   background: #61b573;
 }
-/* line 225, ../sass/custom.scss */
+/* line 250, ../sass/custom.scss */
+.index #main .btn.green:hover {
+  background: #51ac64;
+}
+/* line 255, ../sass/custom.scss */
 .index #main .btn.wine {
   background: #c4334b;
 }
-/* line 232, ../sass/custom.scss */
+/* line 258, ../sass/custom.scss */
+.index #main .btn.wine:hover {
+  background: #b02e43;
+}
+/* line 266, ../sass/custom.scss */
 .index #main #content #main_title {
   background: url(../img/main_title_bg.png) no-repeat center #a02136;
   padding: 24px 0 18px;
 }
-/* line 239, ../sass/custom.scss */
+/* line 273, ../sass/custom.scss */
 .index #main #content #main_title .container hgroup h1 {
   font-size: 50px;
   font-family: 'Dosis-Light';
   color: white;
 }
-/* line 244, ../sass/custom.scss */
+/* line 278, ../sass/custom.scss */
 .index #main #content #main_title .container hgroup h1 span {
   color: #eac220;
 }
 @media only screen and (max-width: 870px) {
-  /* line 239, ../sass/custom.scss */
+  /* line 273, ../sass/custom.scss */
   .index #main #content #main_title .container hgroup h1 {
     font-size: 38px;
   }
 }
-/* line 253, ../sass/custom.scss */
+/* line 287, ../sass/custom.scss */
 .index #main #content #main_title .container hgroup p {
   font-family: 'Dosis-Regular';
   font-size: 30px;
@@ -270,12 +301,12 @@ h2 {
   margin: 8px 0 12px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 253, ../sass/custom.scss */
+  /* line 287, ../sass/custom.scss */
   .index #main #content #main_title .container hgroup p {
     font-size: 25px;
   }
 }
-/* line 265, ../sass/custom.scss */
+/* line 299, ../sass/custom.scss */
 .index #main #content #main_title .container .men {
   width: 345px;
   position: absolute;
@@ -283,95 +314,94 @@ h2 {
   top: 6px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 265, ../sass/custom.scss */
+  /* line 299, ../sass/custom.scss */
   .index #main #content #main_title .container .men {
     right: 0;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 265, ../sass/custom.scss */
+  /* line 299, ../sass/custom.scss */
   .index #main #content #main_title .container .men {
     display: none;
   }
 }
-/* line 280, ../sass/custom.scss */
+/* line 314, ../sass/custom.scss */
 .index #main #content #main_title .container .btn-box {
   height: 68px;
   padding: 10px 0px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 280, ../sass/custom.scss */
+  /* line 314, ../sass/custom.scss */
   .index #main #content #main_title .container .btn-box {
     text-align: center;
   }
 }
-/* line 288, ../sass/custom.scss */
+/* line 322, ../sass/custom.scss */
 .index #main #content #main_title .container .btn-box .arrow {
   height: 100%;
   top: -10px;
   margin-left: 30px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 288, ../sass/custom.scss */
+  /* line 322, ../sass/custom.scss */
   .index #main #content #main_title .container .btn-box .arrow {
     display: none;
   }
 }
-/* line 298, ../sass/custom.scss */
+/* line 332, ../sass/custom.scss */
 .index #main #content #main_title .container .btn-box .arrow, .index #main #content #main_title .container .btn-box .btn {
   vertical-align: middle;
 }
-/* line 305, ../sass/custom.scss */
-.index #main #content #form {
-  background: white;
+/* line 339, ../sass/custom.scss */
+.index #main #content #advantages, .index #main #content #form-embed {
   padding: 20px 0;
 }
-/* line 310, ../sass/custom.scss */
-.index #main #content #form .container #advantages {
+/* line 344, ../sass/custom.scss */
+.index #main #content .container #advantages {
+  padding: 20px 0;
   width: 47%;
   float: left;
-  margin-bottom: 110px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 310, ../sass/custom.scss */
-  .index #main #content #form .container #advantages {
+  /* line 344, ../sass/custom.scss */
+  .index #main #content .container #advantages {
     float: none;
     width: 100%;
   }
 }
-/* line 320, ../sass/custom.scss */
-.index #main #content #form .container #advantages hgroup {
+/* line 354, ../sass/custom.scss */
+.index #main #content .container #advantages hgroup {
   margin-bottom: 45px;
   margin-top: -10px;
 }
 @media only screen and (max-width: 500px) {
-  /* line 320, ../sass/custom.scss */
-  .index #main #content #form .container #advantages hgroup {
+  /* line 354, ../sass/custom.scss */
+  .index #main #content .container #advantages hgroup {
     margin-bottom: 30px;
   }
 }
-/* line 328, ../sass/custom.scss */
-.index #main #content #form .container #advantages hgroup h2 {
+/* line 362, ../sass/custom.scss */
+.index #main #content .container #advantages hgroup h2 {
   font-family: 'Dosis-Light';
 }
-/* line 331, ../sass/custom.scss */
-.index #main #content #form .container #advantages hgroup h2 strong {
+/* line 365, ../sass/custom.scss */
+.index #main #content .container #advantages hgroup h2 strong {
   font-family: 'Dosis-Medium';
   border-bottom: 4px solid #ffeb99;
 }
-/* line 336, ../sass/custom.scss */
-.index #main #content #form .container #advantages hgroup h2 span {
+/* line 370, ../sass/custom.scss */
+.index #main #content .container #advantages hgroup h2 span {
   color: #a02136;
   font-size: 30px;
 }
 @media only screen and (max-width: 500px) {
-  /* line 336, ../sass/custom.scss */
-  .index #main #content #form .container #advantages hgroup h2 span {
+  /* line 370, ../sass/custom.scss */
+  .index #main #content .container #advantages hgroup h2 span {
     font-size: 21px;
   }
 }
-/* line 347, ../sass/custom.scss */
-.index #main #content #form .container #advantages .note {
+/* line 381, ../sass/custom.scss */
+.index #main #content .container #advantages .note {
   position: absolute;
   top: -60px;
   right: 75px;
@@ -381,34 +411,35 @@ h2 {
   background-size: 100%;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 347, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .note {
+  /* line 381, ../sass/custom.scss */
+  .index #main #content .container #advantages .note {
     right: 0;
   }
 }
 @media only screen and (max-width: 1200px) {
-  /* line 347, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .note {
+  /* line 381, ../sass/custom.scss */
+  .index #main #content .container #advantages .note {
     right: -30px;
     z-index: 100;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 347, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .note {
+  /* line 381, ../sass/custom.scss */
+  .index #main #content .container #advantages .note {
     right: 0;
     top: -40px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 347, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .note {
+  /* line 381, ../sass/custom.scss */
+  .index #main #content .container #advantages .note {
     width: 115px;
     height: 130px;
+    top: -20px;
   }
 }
-/* line 375, ../sass/custom.scss */
-.index #main #content #form .container #advantages .note p {
+/* line 410, ../sass/custom.scss */
+.index #main #content .container #advantages .note p {
   padding-top: 60px;
   font-family: 'Dosis-Regular';
   color: #a02136;
@@ -417,38 +448,38 @@ h2 {
   transform: rotate(5deg);
 }
 @media only screen and (max-width: 500px) {
-  /* line 375, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .note p {
+  /* line 410, ../sass/custom.scss */
+  .index #main #content .container #advantages .note p {
     font-size: 24px;
     padding-top: 40px;
   }
 }
-/* line 388, ../sass/custom.scss */
-.index #main #content #form .container #advantages .note p span {
+/* line 423, ../sass/custom.scss */
+.index #main #content .container #advantages .note p span {
   display: block;
   font-size: 64px;
   font-family: 'Dosis-Bold';
   text-align: center;
 }
 @media only screen and (max-width: 500px) {
-  /* line 388, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .note p span {
+  /* line 423, ../sass/custom.scss */
+  .index #main #content .container #advantages .note p span {
     font-size: 41px;
   }
 }
-/* line 401, ../sass/custom.scss */
-.index #main #content #form .container #advantages .advantage-list {
+/* line 436, ../sass/custom.scss */
+.index #main #content .container #advantages .advantage-list {
   list-style: none;
   margin-bottom: 40px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 401, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .advantage-list {
+  /* line 436, ../sass/custom.scss */
+  .index #main #content .container #advantages .advantage-list {
     margin-bottom: 20px;
   }
 }
-/* line 409, ../sass/custom.scss */
-.index #main #content #form .container #advantages .advantage-list li {
+/* line 444, ../sass/custom.scss */
+.index #main #content .container #advantages .advantage-list li {
   font-size: 24px;
   font-family: 'Dosis-Regular';
   line-height: 36px;
@@ -456,20 +487,20 @@ h2 {
   padding-left: 50px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 409, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .advantage-list li {
+  /* line 444, ../sass/custom.scss */
+  .index #main #content .container #advantages .advantage-list li {
     font-size: 20px;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 409, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .advantage-list li {
+  /* line 444, ../sass/custom.scss */
+  .index #main #content .container #advantages .advantage-list li {
     font-size: 18px;
     line-height: 20px;
   }
 }
-/* line 425, ../sass/custom.scss */
-.index #main #content #form .container #advantages .advantage-list li:before {
+/* line 460, ../sass/custom.scss */
+.index #main #content .container #advantages .advantage-list li:before {
   width: 36px;
   height: 36px;
   background: url(../img/check.png) no-repeat center;
@@ -480,58 +511,58 @@ h2 {
   margin-right: 16px;
   margin-left: -50px;
 }
-/* line 439, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box {
+/* line 474, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box {
   padding: 25px;
   border-top: 4px solid #eee;
   border-bottom: 4px solid #eee;
   margin-right: 30px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 439, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box {
+  /* line 474, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box {
     padding: 25px 15px;
   }
 }
 @media only screen and (max-width: 980px) {
-  /* line 439, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box {
+  /* line 474, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box {
     text-align: center;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 439, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box {
+  /* line 474, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box {
     padding: 15px 0;
     margin-right: 0;
   }
 }
-/* line 458, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box label {
+/* line 493, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box label {
   display: inline-block;
   width: 190px;
   vertical-align: middle;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 458, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box label {
+  /* line 493, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box label {
     width: 150px;
   }
 }
 @media only screen and (max-width: 980px) {
-  /* line 458, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box label {
+  /* line 493, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box label {
     width: 120px;
   }
 }
-/* line 471, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box label:before {
+/* line 506, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box label:before {
   content: "";
   display: block;
   padding-top: 100%;
 }
-/* line 477, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box label p {
+/* line 512, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box label p {
   position: absolute;
   top: 0;
   left: 0;
@@ -547,45 +578,45 @@ h2 {
   padding-top: 15px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 477, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box label p {
+  /* line 512, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box label p {
     font-size: 24px;
   }
 }
 @media only screen and (max-width: 980px) {
-  /* line 477, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box label p {
+  /* line 512, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box label p {
     font-size: 20px;
   }
 }
-/* line 500, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box label p span {
+/* line 535, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box label p span {
   font-size: 64px;
   display: block;
   text-align: center;
   top: 10px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 500, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box label p span {
+  /* line 535, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box label p span {
     font-size: 50px;
     top: 0;
   }
 }
 @media only screen and (max-width: 980px) {
-  /* line 500, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box label p span {
+  /* line 535, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box label p span {
     font-size: 40px;
   }
 }
-/* line 518, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box .terms {
+/* line 553, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box .terms {
   display: inline-block;
   vertical-align: middle;
   margin-left: 20px;
 }
-/* line 523, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box .terms p {
+/* line 558, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box .terms p {
   display: inline-block;
   font-size: 30px;
   font-family: 'Dosis-Light';
@@ -593,29 +624,29 @@ h2 {
   margin-bottom: 30px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 523, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box .terms p {
+  /* line 558, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box .terms p {
     font-size: 24px;
   }
 }
-@media only screen and (max-width: 870px) {
-  /* line 523, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box .terms p {
+@media only screen and (max-width: 980px) {
+  /* line 558, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box .terms p {
     font-size: 20px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 523, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box .terms p {
+  /* line 558, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box .terms p {
     font-size: 18px;
   }
 }
-/* line 542, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box .terms p strong {
+/* line 577, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box .terms p strong {
   font-family: 'Dosis-Medium';
 }
-/* line 546, ../sass/custom.scss */
-.index #main #content #form .container #advantages .code-box .terms p.code {
+/* line 581, ../sass/custom.scss */
+.index #main #content .container #advantages .code-box .terms p.code {
   display: block;
   font-size: 22px;
   color: #c41d70;
@@ -624,35 +655,35 @@ h2 {
   margin-bottom: 0;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 546, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box .terms p.code {
+  /* line 581, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box .terms p.code {
     font-size: 20px;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 546, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box .terms p.code {
+  /* line 581, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box .terms p.code {
     font-size: 18px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 546, ../sass/custom.scss */
-  .index #main #content #form .container #advantages .code-box .terms p.code {
+  /* line 581, ../sass/custom.scss */
+  .index #main #content .container #advantages .code-box .terms p.code {
     font-size: 16px;
   }
 }
-/* line 732, ../sass/custom.scss */
+/* line 609, ../sass/custom.scss */
 .index #main #content #howitworks {
   background: #f6f6f6;
   padding: 18px 0px;
 }
-/* line 736, ../sass/custom.scss */
+/* line 613, ../sass/custom.scss */
 .index #main #content #howitworks ul {
   list-style: none;
   text-align: center;
   margin-bottom: 25px;
 }
-/* line 741, ../sass/custom.scss */
+/* line 618, ../sass/custom.scss */
 .index #main #content #howitworks ul li {
   display: inline-block;
   text-align: center;
@@ -661,46 +692,46 @@ h2 {
   vertical-align: top;
 }
 @media only screen and (max-width: 870px) {
-  /* line 741, ../sass/custom.scss */
+  /* line 618, ../sass/custom.scss */
   .index #main #content #howitworks ul li {
     margin: 0 0 25px;
     width: 100%;
     display: block;
   }
 }
-/* line 754, ../sass/custom.scss */
+/* line 631, ../sass/custom.scss */
 .index #main #content #howitworks ul li:first-of-type {
   margin-left: 0;
 }
-/* line 758, ../sass/custom.scss */
+/* line 635, ../sass/custom.scss */
 .index #main #content #howitworks ul li:last-of-type {
   margin-right: 0;
 }
-/* line 762, ../sass/custom.scss */
+/* line 639, ../sass/custom.scss */
 .index #main #content #howitworks ul li label {
   width: 160px;
   height: 160px;
   display: inline-block;
 }
 @media only screen and (max-width: 870px) {
-  /* line 762, ../sass/custom.scss */
+  /* line 639, ../sass/custom.scss */
   .index #main #content #howitworks ul li label {
     width: 120px;
     height: 120px;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 762, ../sass/custom.scss */
+  /* line 639, ../sass/custom.scss */
   .index #main #content #howitworks ul li label {
     width: 80px;
     height: 80px;
   }
 }
-/* line 777, ../sass/custom.scss */
+/* line 654, ../sass/custom.scss */
 .index #main #content #howitworks ul li label img {
   width: 100%;
 }
-/* line 782, ../sass/custom.scss */
+/* line 659, ../sass/custom.scss */
 .index #main #content #howitworks ul li h4 {
   font-size: 30px;
   font-family: 'Dosis-Regular';
@@ -708,55 +739,55 @@ h2 {
   margin-top: 10px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 782, ../sass/custom.scss */
+  /* line 659, ../sass/custom.scss */
   .index #main #content #howitworks ul li h4 {
     font-size: 24px;
   }
 }
-/* line 792, ../sass/custom.scss */
+/* line 669, ../sass/custom.scss */
 .index #main #content #howitworks ul li h4 strong {
   font-size: 50px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 792, ../sass/custom.scss */
+  /* line 669, ../sass/custom.scss */
   .index #main #content #howitworks ul li h4 strong {
     font-size: 40px;
   }
 }
-/* line 801, ../sass/custom.scss */
+/* line 678, ../sass/custom.scss */
 .index #main #content #howitworks ul li p {
   font-size: 20px;
   font-family: 'Dosis-Regular';
   text-align: center;
 }
-/* line 810, ../sass/custom.scss */
+/* line 687, ../sass/custom.scss */
 .index #main #content #faq {
   background: white;
   padding: 35px 0;
 }
-/* line 816, ../sass/custom.scss */
+/* line 693, ../sass/custom.scss */
 .index #main #content #faq .container ul li {
   border-bottom: 1px solid #e2e2e2;
   margin: 10px 0;
 }
-/* line 820, ../sass/custom.scss */
+/* line 697, ../sass/custom.scss */
 .index #main #content #faq .container ul li:last-of-type {
   border-bottom: none;
   margin-bottom: 0;
 }
-/* line 825, ../sass/custom.scss */
+/* line 702, ../sass/custom.scss */
 .index #main #content #faq .container ul li a, .index #main #content #faq .container ul li p {
   font-family: 'Dosis-Regular';
   line-height: 36px;
   font-size: 20px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 825, ../sass/custom.scss */
+  /* line 702, ../sass/custom.scss */
   .index #main #content #faq .container ul li a, .index #main #content #faq .container ul li p {
     line-height: 24px;
   }
 }
-/* line 835, ../sass/custom.scss */
+/* line 712, ../sass/custom.scss */
 .index #main #content #faq .container ul li a {
   text-decoration: underline;
   padding-bottom: 10px;
@@ -766,7 +797,7 @@ h2 {
   padding-left: 50px;
   white-space: normal;
 }
-/* line 844, ../sass/custom.scss */
+/* line 721, ../sass/custom.scss */
 .index #main #content #faq .container ul li a:before {
   margin-right: 14px;
   display: inline-block;
@@ -779,117 +810,121 @@ h2 {
   vertical-align: middle;
   margin-left: -50px;
 }
-/* line 857, ../sass/custom.scss */
+/* line 734, ../sass/custom.scss */
 .index #main #content #faq .container ul li a:hover {
   text-decoration: none;
 }
-/* line 861, ../sass/custom.scss */
+/* line 738, ../sass/custom.scss */
 .index #main #content #faq .container ul li a.opened {
   color: #c4334b;
 }
-/* line 864, ../sass/custom.scss */
+/* line 741, ../sass/custom.scss */
 .index #main #content #faq .container ul li a.opened:before {
   background: url(../img/down.png) no-repeat;
   background-size: 36px;
   transform: rotate(90deg);
 }
-/* line 872, ../sass/custom.scss */
+/* line 749, ../sass/custom.scss */
 .index #main #content #faq .container ul li p {
   display: none;
   padding-left: 50px;
   top: -10px;
 }
-/* line 882, ../sass/custom.scss */
+/* line 759, ../sass/custom.scss */
 .index #main #content #order {
   background: #61b573;
   padding: 25px 0;
 }
-/* line 887, ../sass/custom.scss */
+/* line 764, ../sass/custom.scss */
 .index #main #content #order .container hgroup {
   float: left;
   margin-top: -12px;
 }
 @media only screen and (max-width: 980px) {
-  /* line 887, ../sass/custom.scss */
+  /* line 764, ../sass/custom.scss */
   .index #main #content #order .container hgroup {
     float: none;
   }
 }
-/* line 895, ../sass/custom.scss */
+/* line 772, ../sass/custom.scss */
 .index #main #content #order .container hgroup h2, .index #main #content #order .container hgroup p {
   color: white;
 }
 @media only screen and (max-width: 980px) {
-  /* line 895, ../sass/custom.scss */
+  /* line 772, ../sass/custom.scss */
   .index #main #content #order .container hgroup h2, .index #main #content #order .container hgroup p {
     text-align: center;
   }
 }
-/* line 903, ../sass/custom.scss */
+/* line 780, ../sass/custom.scss */
 .index #main #content #order .container hgroup h2 {
   font-family: 'Dosis-Medium';
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 1200px) {
-  /* line 903, ../sass/custom.scss */
+  /* line 780, ../sass/custom.scss */
   .index #main #content #order .container hgroup h2 {
     margin-bottom: 0;
   }
 }
-/* line 912, ../sass/custom.scss */
+/* line 789, ../sass/custom.scss */
 .index #main #content #order .container hgroup p {
   font-size: 30px;
   font-family: 'Dosis-Light';
 }
 @media only screen and (max-width: 980px) {
-  /* line 912, ../sass/custom.scss */
+  /* line 789, ../sass/custom.scss */
   .index #main #content #order .container hgroup p {
     margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 912, ../sass/custom.scss */
+  /* line 789, ../sass/custom.scss */
   .index #main #content #order .container hgroup p {
     font-size: 20px;
   }
 }
-/* line 926, ../sass/custom.scss */
+/* line 803, ../sass/custom.scss */
 .index #main #content #order .container .btn-box {
   text-align: right;
 }
 @media only screen and (max-width: 980px) {
-  /* line 926, ../sass/custom.scss */
+  /* line 803, ../sass/custom.scss */
   .index #main #content #order .container .btn-box {
     text-align: center;
   }
 }
-/* line 933, ../sass/custom.scss */
+/* line 810, ../sass/custom.scss */
 .index #main #content #order .container .btn-box .white {
   background: white;
   font-size: 42px !important;
   padding: 20px 35px;
   color: black !important;
 }
+/* line 816, ../sass/custom.scss */
+.index #main #content #order .container .btn-box .white:hover {
+  background: #f2f2f2;
+}
 @media only screen and (max-width: 870px) {
-  /* line 933, ../sass/custom.scss */
+  /* line 810, ../sass/custom.scss */
   .index #main #content #order .container .btn-box .white {
     font-size: 27px !important;
   }
 }
-/* line 947, ../sass/custom.scss */
+/* line 828, ../sass/custom.scss */
 .index #main #content #reviews {
   background: #f6f6f6;
   padding: 20px 0px 40px;
 }
-/* line 953, ../sass/custom.scss */
+/* line 834, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review {
   margin-bottom: 35px;
 }
-/* line 956, ../sass/custom.scss */
+/* line 837, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user {
   margin-bottom: 10px;
 }
-/* line 959, ../sass/custom.scss */
+/* line 840, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .mask {
   width: 36px;
   height: 36px;
@@ -899,86 +934,86 @@ h2 {
   vertical-align: middle;
   margin-right: 10px;
 }
-/* line 968, ../sass/custom.scss */
+/* line 849, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .mask img {
   width: 100%;
 }
-/* line 973, ../sass/custom.scss */
+/* line 854, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .name, .index #main #content #reviews .container .reviews .review .user .date {
   font-size: 18px;
   vertical-align: middle;
 }
-/* line 978, ../sass/custom.scss */
+/* line 859, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .name {
   font-family: 'Dosis-Medium';
 }
-/* line 982, ../sass/custom.scss */
+/* line 863, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .user .date {
   color: #8b8b8b;
   font-family: 'Dosis-Regular';
 }
-/* line 988, ../sass/custom.scss */
+/* line 869, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review p {
   font-size: 18px;
   font-family: 'Dosis-Regular';
 }
-/* line 993, ../sass/custom.scss */
+/* line 874, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .review-message {
   margin-bottom: 10px;
 }
-/* line 996, ../sass/custom.scss */
+/* line 877, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .review-message p {
   padding: 18px 25px;
   background: white;
   border-radius: 4px;
 }
-/* line 1003, ../sass/custom.scss */
+/* line 884, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .answer {
   border-left: 1px solid #8b8b8b;
   padding: 5px 0 5px 10px;
   margin-left: 30px;
 }
-/* line 1009, ../sass/custom.scss */
+/* line 890, ../sass/custom.scss */
 .index #main #content #reviews .container .reviews .review .answer .user .name {
   color: #c4334b;
 }
-/* line 1017, ../sass/custom.scss */
+/* line 898, ../sass/custom.scss */
 .index #main #content #reviews .container .add {
   text-transform: uppercase;
   color: #8b8b8b;
   font-size: 16px;
   font-family: 'Dosis-Regular';
 }
-/* line 1023, ../sass/custom.scss */
+/* line 904, ../sass/custom.scss */
 .index #main #content #reviews .container .add:hover {
   text-decoration: underline;
 }
-/* line 1027, ../sass/custom.scss */
+/* line 908, ../sass/custom.scss */
 .index #main #content #reviews .container .add img {
   width: 20px;
   vertical-align: bottom;
   margin-right: 5px;
 }
-/* line 1036, ../sass/custom.scss */
+/* line 917, ../sass/custom.scss */
 .index #main #content #contacts {
   background: white;
   padding: 35px 0;
 }
-/* line 1042, ../sass/custom.scss */
+/* line 923, ../sass/custom.scss */
 .index #main #content #contacts .container form .message {
   background: white;
 }
-/* line 1045, ../sass/custom.scss */
+/* line 926, ../sass/custom.scss */
 .index #main #content #contacts .container form .message .message_text div {
   color: black;
   font-family: 'Dosis-Regular';
   font-size: 20px;
 }
-/* line 1052, ../sass/custom.scss */
+/* line 933, ../sass/custom.scss */
 .index #main #content #contacts .container form .submit, .index #main #content #contacts .container form .btn-box {
   text-align: center;
 }
-/* line 1055, ../sass/custom.scss */
+/* line 936, ../sass/custom.scss */
 .index #main #content #contacts .container form .submit .wine, .index #main #content #contacts .container form .btn-box .wine {
   display: inline-block;
   margin: 0;
@@ -987,17 +1022,16 @@ h2 {
   border: none;
   font-weight: normal;
   text-shadow: none;
-  transition: none;
 }
-/* line 1067, ../sass/custom.scss */
+/* line 947, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line {
   padding: 0;
 }
-/* line 1070, ../sass/custom.scss */
+/* line 950, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line.text {
   margin: 15px 0 25px;
 }
-/* line 1074, ../sass/custom.scss */
+/* line 954, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line label.error {
   display: block;
   top: auto;
@@ -1006,48 +1040,48 @@ h2 {
   color: #c4334b;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1074, ../sass/custom.scss */
+  /* line 954, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line label.error {
     bottom: -5px;
   }
 }
-/* line 1086, ../sass/custom.scss */
+/* line 966, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25 {
   width: 23.5%;
   margin: 0 1%;
   float: left;
 }
-/* line 1091, ../sass/custom.scss */
+/* line 971, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25:first-of-type {
   margin-left: 0;
 }
-/* line 1095, ../sass/custom.scss */
+/* line 975, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25:last-of-type {
   margin-right: 0;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1086, ../sass/custom.scss */
+  /* line 966, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line .w25 {
     width: 48.5%;
     margin: 0 1.5%;
   }
-  /* line 1103, ../sass/custom.scss */
+  /* line 983, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line .w25:nth-of-type(odd) {
     margin-left: 0;
   }
-  /* line 1107, ../sass/custom.scss */
+  /* line 987, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line .w25:nth-of-type(even) {
     margin-right: 0;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 1086, ../sass/custom.scss */
+  /* line 966, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line .w25 {
     width: 100%;
     margin: 0;
   }
 }
-/* line 1117, ../sass/custom.scss */
+/* line 997, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25 label, .index #main #content #contacts .container form .form_line .w25 .input {
   display: block;
   width: 100%;
@@ -1057,11 +1091,11 @@ h2 {
   float: none;
   padding-bottom: 5px;
 }
-/* line 1126, ../sass/custom.scss */
+/* line 1006, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line .w25 label.focus, .index #main #content #contacts .container form .form_line .w25 .input.focus {
   box-shadow: none;
 }
-/* line 1132, ../sass/custom.scss */
+/* line 1012, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line label, .index #main #content #contacts .container form .form_line input[type="text"], .index #main #content #contacts .container form .form_line input[type="email"], .index #main #content #contacts .container form .form_line input[type="tel"], .index #main #content #contacts .container form .form_line textarea {
   font-size: 18px;
   font-family: 'Dosis-Regular';
@@ -1069,7 +1103,7 @@ h2 {
   text-shadow: none;
   color: black;
 }
-/* line 1140, ../sass/custom.scss */
+/* line 1020, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line textarea, .index #main #content #contacts .container form .form_line input[type="text"], .index #main #content #contacts .container form .form_line input[type="email"], .index #main #content #contacts .container form .form_line input[type="tel"] {
   background: #f6f6f6;
   border-radius: 4px;
@@ -1079,58 +1113,58 @@ h2 {
   width: calc(100% - 20px);
 }
 @media only screen and (max-width: 870px) {
-  /* line 1140, ../sass/custom.scss */
+  /* line 1020, ../sass/custom.scss */
   .index #main #content #contacts .container form .form_line textarea, .index #main #content #contacts .container form .form_line input[type="text"], .index #main #content #contacts .container form .form_line input[type="email"], .index #main #content #contacts .container form .form_line input[type="tel"] {
     margin: 0 0 20px;
   }
 }
-/* line 1153, ../sass/custom.scss */
+/* line 1033, ../sass/custom.scss */
 .index #main #content #contacts .container form .form_line textarea {
   height: 150px;
 }
-/* line 1161, ../sass/custom.scss */
+/* line 1041, ../sass/custom.scss */
 .index #main #content #terms {
   background: #f6f6f6;
   padding: 35px 0;
 }
-/* line 1166, ../sass/custom.scss */
+/* line 1046, ../sass/custom.scss */
 .index #main #content #terms .container .text {
   width: 50%;
   float: left;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1166, ../sass/custom.scss */
+  /* line 1046, ../sass/custom.scss */
   .index #main #content #terms .container .text {
     width: 100%;
     float: none;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 1176, ../sass/custom.scss */
+  /* line 1056, ../sass/custom.scss */
   .index #main #content #terms .container .text {
     margin-bottom: 20px;
   }
 }
-/* line 1182, ../sass/custom.scss */
+/* line 1062, ../sass/custom.scss */
 .index #main #content #terms .container .text h5, .index #main #content #terms .container .text p {
   font-family: 'Dosis-Regular';
 }
 @media only screen and (max-width: 870px) {
-  /* line 1182, ../sass/custom.scss */
+  /* line 1062, ../sass/custom.scss */
   .index #main #content #terms .container .text h5, .index #main #content #terms .container .text p {
     text-align: center;
   }
 }
-/* line 1190, ../sass/custom.scss */
+/* line 1070, ../sass/custom.scss */
 .index #main #content #terms .container .text h5 {
   margin-bottom: 35px;
   font-size: 24px;
 }
-/* line 1195, ../sass/custom.scss */
+/* line 1075, ../sass/custom.scss */
 .index #main #content #terms .container .text p {
   font-size: 20px;
 }
-/* line 1200, ../sass/custom.scss */
+/* line 1080, ../sass/custom.scss */
 .index #main #content #terms .container table {
   border-collapse: separate;
   border-spacing: 0;
@@ -1138,44 +1172,44 @@ h2 {
   float: left;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1200, ../sass/custom.scss */
+  /* line 1080, ../sass/custom.scss */
   .index #main #content #terms .container table {
     width: 100%;
     float: none;
   }
-  /* line 1210, ../sass/custom.scss */
+  /* line 1090, ../sass/custom.scss */
   .index #main #content #terms .container table:last-of-type {
     top: -1px;
   }
 }
-/* line 1217, ../sass/custom.scss */
+/* line 1097, ../sass/custom.scss */
 .index #main #content #terms .container table tr:last-of-type td {
   border-bottom: 1px solid #e2e2e2;
 }
-/* line 1222, ../sass/custom.scss */
+/* line 1102, ../sass/custom.scss */
 .index #main #content #terms .container table tr td {
   font-size: 18px;
   font-family: 'Dosis-Regular';
   border-top: 1px solid #e2e2e2;
   padding: 4px 0;
 }
-/* line 1235, ../sass/custom.scss */
+/* line 1115, ../sass/custom.scss */
 .index #footer {
   background: #901e30;
   padding: 35px 0;
 }
-/* line 1239, ../sass/custom.scss */
+/* line 1119, ../sass/custom.scss */
 .index #footer .container {
   background: url(../img/logo_footer.png) no-repeat center 110px;
   background-size: 230px;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1239, ../sass/custom.scss */
+  /* line 1119, ../sass/custom.scss */
   .index #footer .container {
     padding-top: 185px;
   }
 }
-/* line 1247, ../sass/custom.scss */
+/* line 1127, ../sass/custom.scss */
 .index #footer .container .top {
   width: 76px;
   height: 76px;
@@ -1187,78 +1221,325 @@ h2 {
   left: 50%;
   margin-left: -38px;
 }
-/* line 1259, ../sass/custom.scss */
+/* line 1139, ../sass/custom.scss */
 .index #footer .container .info, .index #footer .container .contacts {
   width: 50%;
   float: right;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1259, ../sass/custom.scss */
+  /* line 1139, ../sass/custom.scss */
   .index #footer .container .info, .index #footer .container .contacts {
     width: 100%;
     float: none;
   }
 }
-/* line 1270, ../sass/custom.scss */
+/* line 1150, ../sass/custom.scss */
 .index #footer .container .info .copyright, .index #footer .container .info .company_info {
   font-family: 'Dosis-Regular';
 }
-/* line 1274, ../sass/custom.scss */
+/* line 1154, ../sass/custom.scss */
 .index #footer .container .info .copyright {
   text-align: left;
   font-size: 20px;
   color: white;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1274, ../sass/custom.scss */
+  /* line 1154, ../sass/custom.scss */
   .index #footer .container .info .copyright {
     text-align: center;
   }
 }
-/* line 1284, ../sass/custom.scss */
+/* line 1164, ../sass/custom.scss */
 .index #footer .container .info .company_info {
   font-size: 18px;
   color: #b6b6b6;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1284, ../sass/custom.scss */
+  /* line 1164, ../sass/custom.scss */
   .index #footer .container .info .company_info {
     text-align: center;
   }
 }
 @media only screen and (max-width: 870px) {
-  /* line 1294, ../sass/custom.scss */
+  /* line 1174, ../sass/custom.scss */
   .index #footer .container .contacts {
     margin-bottom: 20px;
   }
 }
-/* line 1299, ../sass/custom.scss */
+/* line 1179, ../sass/custom.scss */
 .index #footer .container .contacts .email, .index #footer .container .contacts .phone {
   text-align: right;
 }
 @media only screen and (max-width: 870px) {
-  /* line 1299, ../sass/custom.scss */
+  /* line 1179, ../sass/custom.scss */
   .index #footer .container .contacts .email, .index #footer .container .contacts .phone {
     text-align: center;
   }
 }
-/* line 1306, ../sass/custom.scss */
+/* line 1186, ../sass/custom.scss */
 .index #footer .container .contacts .email.email, .index #footer .container .contacts .phone.email {
   margin-bottom: 35px;
 }
-/* line 1309, ../sass/custom.scss */
+/* line 1189, ../sass/custom.scss */
 .index #footer .container .contacts .email.email a:hover, .index #footer .container .contacts .phone.email a:hover {
   text-decoration: underline;
 }
-/* line 1314, ../sass/custom.scss */
+/* line 1194, ../sass/custom.scss */
 .index #footer .container .contacts .email span, .index #footer .container .contacts .phone span {
   width: 200px;
   text-align: center;
   display: inline-block;
 }
-/* line 1320, ../sass/custom.scss */
+/* line 1200, ../sass/custom.scss */
 .index #footer .container .contacts .email span, .index #footer .container .contacts .email span a, .index #footer .container .contacts .phone span, .index #footer .container .contacts .phone span a {
   font-size: 24px;
   font-family: 'Dosis-Regular';
   color: white;
+}
+
+/* line 1211, ../sass/custom.scss */
+#form-embed {
+  width: 53%;
+  float: left;
+  margin: 20px 0;
+  background: #eee;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 870px) {
+  /* line 1211, ../sass/custom.scss */
+  #form-embed {
+    float: none;
+    width: 100%;
+  }
+}
+/* line 1223, ../sass/custom.scss */
+#form-embed .wrapper {
+  padding: 0;
+}
+/* line 1226, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+/* line 1231, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form {
+  background: none;
+}
+/* line 1234, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding {
+  padding: 0 15px;
+}
+/* line 1238, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form h2 {
+  font-size: 24px;
+  margin: 35px 0 15px;
+  font-family: 'Titillium-Regular';
+}
+@media only screen and (max-width: 500px) {
+  /* line 1238, ../sass/custom.scss */
+  #form-embed .wrapper .volsor-form .column-form .column-padding form h2 {
+    font-size: 20px;
+  }
+}
+/* line 1247, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form h2 span {
+  background: #eee;
+  padding-right: 20px;
+  position: relative;
+}
+/* line 1253, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form h2:before {
+  content: '';
+  border-bottom: 2px solid #dcdcdc;
+  width: 100%;
+  position: absolute;
+  margin-top: 11px;
+}
+@media only screen and (max-width: 500px) {
+  /* line 1253, ../sass/custom.scss */
+  #form-embed .wrapper .volsor-form .column-form .column-padding form h2:before {
+    display: none;
+  }
+}
+/* line 1266, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .steps {
+  color: #c4334b;
+  border-bottom: 2px solid #dcdcdc;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  font-family: 'Titillium-Regular';
+  padding-left: 45px;
+}
+/* line 1275, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .steps:before {
+  background: #c4334b;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  padding: 0;
+  font-size: 22px;
+  line-height: 40px;
+}
+/* line 1285, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .steps span {
+  display: block;
+}
+/* line 1289, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .steps .steps-line {
+  display: none;
+}
+/* line 1294, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line {
+  position: relative;
+}
+/* line 1297, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell {
+  width: 48.5%;
+  margin: 0 1.5%;
+}
+/* line 1301, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell:nth-of-type(odd) {
+  margin-left: 0;
+}
+/* line 1305, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell:nth-of-type(even) {
+  margin-right: 0;
+}
+@media only screen and (max-width: 500px) {
+  /* line 1297, ../sass/custom.scss */
+  #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell {
+    width: 100%;
+    margin: 0;
+  }
+}
+/* line 1314, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell label {
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Titillium-Regular';
+  color: black;
+}
+@media only screen and (max-width: 980px) {
+  /* line 1314, ../sass/custom.scss */
+  #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell label {
+    font-size: 16px;
+  }
+}
+/* line 1325, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element {
+  border: none;
+  height: auto;
+  background: none;
+}
+/* line 1330, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element select {
+  background: url("../img/select-arrow.png") no-repeat right center white;
+  width: 100%;
+}
+/* line 1335, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element select, #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element input {
+  background-color: white;
+  border-radius: 4px;
+  height: 46px;
+  font-size: 18px;
+  font-family: 'Titillium-SemiBold';
+  line-height: 20px;
+}
+@media only screen and (max-width: 980px) {
+  /* line 1335, ../sass/custom.scss */
+  #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element select, #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element input {
+    font-size: 16px;
+  }
+}
+/* line 1347, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element select::-webkit-input-placeholder, #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element input::-webkit-input-placeholder {
+  color: #eee;
+  font-size: 18px;
+}
+/* line 1348, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element select::-moz-placeholder, #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element input::-moz-placeholder {
+  color: #eee;
+  font-size: 18px;
+}
+/* line 1349, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element select:-moz-placeholder, #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element input:-moz-placeholder {
+  color: #eee;
+  font-size: 18px;
+}
+/* line 1350, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element select:-ms-input-placeholder, #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell .form-element input:-ms-input-placeholder {
+  color: #eee;
+  font-size: 18px;
+}
+/* line 1354, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.button {
+  margin: 0;
+  width: 100%;
+}
+/* line 1358, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.button .form-element {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+/* line 1363, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.button .form-element input[type="submit"] {
+  display: inline-block;
+  border-radius: 1000px;
+  text-transform: uppercase;
+  color: white !important;
+  padding: 15px 30px;
+  font-size: 34px !important;
+  font-family: 'Dosis-SemiBold' !important;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+  transition: background 300ms ease-out;
+  background: #61b573;
+  height: 87px;
+  width: auto;
+}
+@media only screen and (max-width: 870px) {
+  /* line 1363, ../sass/custom.scss */
+  #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.button .form-element input[type="submit"] {
+    font-size: 30px !important;
+  }
+}
+/* line 1383, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.button .form-element input[type="submit"]:hover {
+  background: #51ac64;
+}
+/* line 1390, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox {
+  width: 100%;
+}
+/* line 1393, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox {
+  padding: 6px 0 6px 30px;
+  font-size: 16px;
+}
+/* line 1397, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox a {
+  color: black;
+  font-family: 'Titillium-SemiBold';
+}
+/* line 1402, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox span {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  border: 1px solid #61b573;
+  background: white;
+}
+/* line 1409, ../sass/custom.scss */
+#form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox span:after {
+  content: '';
+  background: url(../img/check.png) no-repeat center;
+  background-size: 140%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
