@@ -63,9 +63,9 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Titillium-SemiBold';
-  src: url("../fonts/Titillium-SemiBold.eot");
-  src: local("☺"), url("../fonts/Titillium-SemiBold.woff") format("woff"), url("../fonts/Titillium-SemiBold.ttf") format("truetype"), url("../fonts/Titillium-SemiBold.svg") format("svg");
+  font-family: 'Titillium-Semibold';
+  src: url("../fonts/Titillium-Semibold.eot");
+  src: local("☺"), url("../fonts/Titillium-Semibold.woff") format("woff"), url("../fonts/Titillium-Semibold.ttf") format("truetype"), url("../fonts/Titillium-Semibold.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1445,7 +1445,7 @@ h2 {
   border-radius: 4px;
   height: 46px;
   font-size: 18px;
-  font-family: 'Titillium-SemiBold';
+  font-family: "Titillium-Semibold";
   line-height: 20px;
 }
 @media only screen and (max-width: 980px) {
@@ -1493,7 +1493,7 @@ h2 {
   color: white !important;
   padding: 15px 30px;
   font-size: 34px !important;
-  font-family: 'Dosis-SemiBold' !important;
+  font-family: "Dosis-Semibold" !important;
   box-shadow: none;
   border: none;
   text-shadow: none;
@@ -1524,7 +1524,7 @@ h2 {
 /* line 1398, ../sass/custom.scss */
 #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox a {
   color: black;
-  font-family: 'Titillium-SemiBold';
+  font-family: "Titillium-Semibold";
 }
 /* line 1403, ../sass/custom.scss */
 #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox span {
