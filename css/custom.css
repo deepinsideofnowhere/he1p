@@ -1518,7 +1518,7 @@ h2 {
 }
 /* line 1394, ../sass/custom.scss */
 #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox {
-  padding: 6px 0 6px 30px;
+  padding-left: 30px;
   font-size: 16px;
 }
 /* line 1398, ../sass/custom.scss */
