@@ -1520,13 +1520,15 @@ h2 {
 #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox {
   padding-left: 30px;
   font-size: 16px;
+  line-height: 25px;
+  display: inline-block;
 }
-/* line 1398, ../sass/custom.scss */
+/* line 1400, ../sass/custom.scss */
 #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox a {
   color: black;
   font-family: "Titillium-Semibold";
 }
-/* line 1403, ../sass/custom.scss */
+/* line 1405, ../sass/custom.scss */
 #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox span {
   width: 22px;
   height: 22px;
@@ -1535,7 +1537,7 @@ h2 {
   background: white;
   top: 0 !important;
 }
-/* line 1411, ../sass/custom.scss */
+/* line 1413, ../sass/custom.scss */
 #form-embed .wrapper .volsor-form .column-form .column-padding form .form-line .form-cell.checkbox .label-checkbox span:after {
   content: '';
   background: url(../img/check.png) no-repeat center;
